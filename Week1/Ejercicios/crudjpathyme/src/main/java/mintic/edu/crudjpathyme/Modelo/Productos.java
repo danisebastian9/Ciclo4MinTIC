@@ -1,4 +1,4 @@
-package Modelo;
+package mintic.edu.crudjpathyme.Modelo;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
