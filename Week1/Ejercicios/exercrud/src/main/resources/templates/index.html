@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns="https://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion de Productos</title>
+</head>
+<body>
+    <div align="center">
+        <h1>Listado de Productos</h1>
+        <a href="/new">Crear un nuevo Producto</a>
+        <br>
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>Codigo</td>
+                    <td>Iva</td>
+                    <td>Nit Proveedor</td>
+                    <td>Nombre Producto</td>
+                    <td>Precio Compra</td>
+                    <td>Precio Venta</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="producto : ${listaProductos}">
+                    <td th:text="${producto.codigo_producto}"></td>
+                    <td th:text="${producto.ivacompra}"></td>
+                    <td th:text="${producto.nitproveedor_key}"></td>
+                    <td th:text="${producto.nombre_producto}"></td>
+                    <td th:text="${producto.precio_compra}"></td>
+                    <td th:text="${producto.precio_venta}"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

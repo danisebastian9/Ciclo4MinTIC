@@ -1,10 +1,10 @@
-package prueba.proyecto;
+package mintic.exercrud;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ProyectoApplicationTests {
+class ExercrudApplicationTests {
 
 	@Test
 	void contextLoads() {

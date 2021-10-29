@@ -1,13 +1,13 @@
-package prueba.proyecto;
+package mintic.exercrud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ProyectoApplication {
+public class ExercrudApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ProyectoApplication.class, args);
+		SpringApplication.run(ExercrudApplication.class, args);
 	}
 
 }
