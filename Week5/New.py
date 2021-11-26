@@ -1,2 +1,3 @@
 nombre = "My name" 
-Apellido = "My last name" 
+apellido = "My last name" 
+nombreCompleto = nombre + apellido 
