@@ -8,5 +8,3 @@ for i in lista(
   print(i)
 )
 
-for c in nombreCompleto(
-  print(c)
