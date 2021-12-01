@@ -10,6 +10,3 @@ for i in lista(
 
 for c in nombreCompleto(
   print(c)
-)
-
-petName = "Rufus" 
