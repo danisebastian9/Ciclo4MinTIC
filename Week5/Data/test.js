@@ -3,3 +3,4 @@ let apellido = "Cubides"
 
 const nomCompleto = nombre + apellido
 
+console.log(nomCompleto)
