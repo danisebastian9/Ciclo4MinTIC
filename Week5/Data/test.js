@@ -4,3 +4,6 @@ let apellido = "last name"
 const nomCompleto = nombre + apellido
 
 console.log(nomCompleto)
+
+a = 18 
+b = 09
