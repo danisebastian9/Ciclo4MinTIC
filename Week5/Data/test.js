@@ -8,3 +8,5 @@ console.log(nomCompleto)
 a = 18 
 b = 09
 c = 1995
+birthDate = a + "/" + b + "/" + c
+console.log(birthDate) 
