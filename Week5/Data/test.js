@@ -1,4 +1,4 @@
-let nombre = "Sebastian"
+let nombre = "Daniel Sebastian"
 let apellido = "Cubides" 
 
 const nomCompleto = nombre + apellido
